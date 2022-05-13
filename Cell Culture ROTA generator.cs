@@ -5,7 +5,6 @@
 int incrementForRotaMethod = 0;
 
 
-
 // Store these in another file that I can access (needs to be public right?)
 (string FirstName, string SecondName, StudentStatus) user1 = ("Hussein", "Al-Obaidi", StudentStatus.Available);
 (string FirstName, string SecondName, StudentStatus) user2 = ("Bob", "Jones", StudentStatus.Available);
@@ -51,9 +50,6 @@ Console.WriteLine("\n");
 */
 
 
-
-
-
 // List of users that are currently using the cell culture facility
 Object[] users = new object[11];
 users[0] = user1;
@@ -86,7 +82,6 @@ while (true)
             AllocateRota();
             break;
         case 2:
-            
             Console.WriteLine("Here is a complete list of users for the Cell Culture Lab");
             Console.WriteLine("\n");
             Console.WriteLine("----------------------------------------------------");
@@ -104,12 +99,11 @@ while (true)
             Console.WriteLine("Please input your choice again");
             break;
            
-
     }
     
 }
 
-// Problem with this method. Need to address
+// Problem with this method. Need to address (Incomplete)
 void AllocateRota()
 {
     while (true)
@@ -168,7 +162,7 @@ void AllocateRota()
         // important so that when the loop starts over it it set back to 0 and can correctly allocate
         incrementForRotaMethod = 0;
        
-        // temporary break, need to find a way to loop
+        // temporary break, need to find a way to loop properly (incomplete)
         break;
     }
 
