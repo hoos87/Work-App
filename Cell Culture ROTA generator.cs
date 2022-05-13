@@ -22,8 +22,8 @@ int incrementForRotaMethod = 0;
 // Would need to create a method here to alter the user1 information to be ready to be changed in the array
 
 // This is how to access the studentstatus type in user1
-user1.Item3 = StudentStatus.PreviouslyAssigned;
-user1.Item3 = StudentStatus.Available;
+// user1.Item3 = StudentStatus.PreviouslyAssigned;
+// user1.Item3 = StudentStatus.Available;
 
 // *IDEA* == Why not check through each user for correct parameters,
 // the ones whose criteria match what we are looking for gets placed in to an array?
