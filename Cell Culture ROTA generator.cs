@@ -187,7 +187,7 @@ void AllocateRota()
             user10.Item3 = StudentStatus.PreviouslyAssigned;
         }
 
-        // important so that when the loop starts over it it set back to 0 and can correct allocate
+        // important so that when the loop starts over it it set back to 0 and can correctly allocate
         incrementForRotaMethod = 0;
        
         // temporary break, need to find a way to loop
