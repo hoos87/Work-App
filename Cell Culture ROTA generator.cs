@@ -26,7 +26,7 @@ int incrementForRotaMethod = 0;
 // user1.Item3 = StudentStatus.Available;
 
 // *IDEA* == Why not check through each user for correct parameters,
-// the ones whose criteria match what we are looking for gets placed in to an array?
+// the ones whose criteria match what we are looking for gets placed into an array?
 
 // onRota will be a list of users selected to be on this month's rota
 Object[] onRota = new object[10];
