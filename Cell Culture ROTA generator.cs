@@ -1,5 +1,5 @@
 
-//placeholder for onRota array to latyer be repalced.
+//placeholder for onRota array to later be repalced.
 (string FirstName, string SecondName, StudentStatus) placeHolder = ("n/a", "n/a", StudentStatus.PreviouslyAssigned);
 
 int incrementForRotaMethod = 0;
