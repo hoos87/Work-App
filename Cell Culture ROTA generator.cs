@@ -1,25 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-// Come back to later
-/*
-
-(string Name, int Points, int Level)[] CreateHighScores()
-{
-    return new (string, int, int)[3]
-        {
-            ("R2-D2", 12420, 15),
-            ("C-3PO", 8543, 9),
-            ("GONK", -1, 1)
-        };
-
-}
-
-var test = CreateHighScores();
-
-Console.WriteLine($"{test.Name}");
-//Console.WriteLine()
-
-*/
 
 //placeholder for onRota array to latyer be repalced.
 (string FirstName, string SecondName, StudentStatus) placeHolder = ("n/a", "n/a", StudentStatus.PreviouslyAssigned);
