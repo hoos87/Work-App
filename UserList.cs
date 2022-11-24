@@ -105,6 +105,7 @@ namespace Classes_and_static
             }
         }
 
+        // Collects first name of user - works with AddUser method
         public string UserFirstName()
         {
             while (true)
@@ -132,6 +133,8 @@ namespace Classes_and_static
                     Console.WriteLine("Please enter the first name of the User");
             }
         }
+
+        // Collects last name of user - works with AddUser method
         public string UserLastName()
         {
             while (true)
@@ -158,6 +161,8 @@ namespace Classes_and_static
                     Console.WriteLine("Please enter the last name of the User");
             }
         }
+
+        // Collects email of user - works with AddUser method
         public string UserEmailAddress()
         {
             while (true)
@@ -184,6 +189,8 @@ namespace Classes_and_static
                     Console.WriteLine("Please enter the email address of the User");
             }
         }
+
+        // Collects supervisor name of user - works with AddUser method
         public string UserSupervisor()
         {
             while (true)
@@ -348,13 +355,14 @@ namespace Classes_and_static
                 Console.WriteLine("No");
         }
 
-        // shows a list of users first names that are in the USERLIST
+        // shows a list of users first names that are in the USERLIST (Not on the current rota)
         public void ViewUserList()
         {
             Console.WriteLine("Displaying users in the TC user list:");
             for (int i = 0; i < myList.Count; i++)
             {
-                Console.WriteLine(myList[i].Name);
+                // would like to include both first and last name incase users share same first name
+                Console.WriteLine($"{myList[i].Name} {myList[i].LastName}");
             }
         }
 
@@ -387,7 +395,7 @@ namespace Classes_and_static
         {
             for (int i = 0; i < myRota.Count; i++)
             {
-                Console.WriteLine(myRota[i].Name);
+                Console.WriteLine($"{myRota[i].Name} {myRota[i].LastName}");
             }
         }
 

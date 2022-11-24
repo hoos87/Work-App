@@ -27,6 +27,7 @@
                 string userMenuInput = Console.ReadLine();
                 Console.Clear();
 
+                /*
                 if (userMenuInput != "1" || 
                     userMenuInput != "2" || 
                     userMenuInput != "3" || 
@@ -37,6 +38,7 @@
 
                     continue;
                 }
+                */
                 int choice = Convert.ToInt32(userMenuInput);
 
                 switch (choice)
